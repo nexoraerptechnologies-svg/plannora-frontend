@@ -14,7 +14,7 @@ export default function AdminVendors() {
   const filtered = vendors.filter((v) => v.name.toLowerCase().includes(search.toLowerCase()));
 
   return (
-    <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 max-w-7xl">
+    <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 w-100">
       <div>
         <h1 className="text-3xl font-display font-semibold">Vendor Management</h1>
         <p className="text-muted-foreground mt-1">Approve, verify, and manage marketplace vendors.</p>

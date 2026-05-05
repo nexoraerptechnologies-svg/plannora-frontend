@@ -20,7 +20,7 @@ export default function AdminMarketplace() {
   const featured = vendors.filter((v) => v.featured);
 
   return (
-    <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 max-w-7xl">
+    <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 w-100">
       <div>
         <h1 className="text-3xl font-display font-semibold">Marketplace Control</h1>
         <p className="text-muted-foreground mt-1">Manage featured vendors and marketplace categories.</p>
